@@ -1,5 +1,5 @@
 const { MessageEmbed, WebhookClient, GuildMember } = require("discord.js");
-const { ruleschannel, urlwelcomeleavelog, roleswelcome } = require("../../config.json");
+const { ruleschannel, urlwelcomeleavelog, unverifiedroles } = require("../../config.json");
 
 module.exports = {
     name : "guildMemberAdd",
@@ -11,7 +11,7 @@ module.exports = {
         
         const { user, guild } = member;
 
-        member.roles.add(roleswelcome)        
+        member.roles.add(unverifiedroles)        
         // https://discord.com/api/webhooks/111111111111111111/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         //                                   THIS ID            THIS TOKEN
         const Welcomer = new WebhookClient({url: urlwelcomeleavelog});
