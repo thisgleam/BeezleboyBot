@@ -1,11 +1,12 @@
 {
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "ascii-table": "^0.0.9",
+    "discord.js": "^13.6.0",
+    "glob": "^8.0.1"
   },
   "name": "beezleboybot",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
