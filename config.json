@@ -1,5 +1,10 @@
 {
     "Token": "OTQ0MjA3MDUwMzk5OTQ0NzA0.Yg-PVw.ayc4M4FrXo1DtpMLxeo9GG6OM5k",
     "Database": "mongodb+srv://beezleboy:Gleam3D123@beezleboybot.kum95.mongodb.net/BeezleboyBot?retryWrites=true&w=majority",
-    "mainGuild": "940260965755285544"
+
+    "mainGuild": "940260965755285544",
+    "ruleschannel":"944131066199961610",
+    "roleswelcome":"969508178716942376",
+    
+    "urlwelcomeleavelog":"https://discord.com/api/webhooks/969509873106702336/1dc902K0YXlHhkuq6cqUn8DMbmxpNURUgS8NwupIPdF6akRzq4Fs9Whn4_FxAaTblY8Q"
 }
