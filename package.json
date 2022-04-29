@@ -4,7 +4,8 @@
     "chalk": "^4.0.0",
     "discord.js": "^13.6.0",
     "glob": "^8.0.1",
-    "mongoose": "^6.3.1"
+    "mongoose": "^6.3.1",
+    "node-tweet-stream": "^2.1.0"
   },
   "name": "beezleboybot",
   "version": "1.0.0",

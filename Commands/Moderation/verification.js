@@ -20,7 +20,7 @@ module.exports = {
     Not just 3D pfp nft, we are an ecosystem.\n
     Spread the words.\n
     React this message with ✅ to get verify.`)
-    .setThumbnail("https://cdn.discordapp.com/attachments/748031852089966704/969572813667205120/fdc19e646a5577d035e6b7518a3ecbc1.png")
+    .setThumbnail("https://cdn.discordapp.com/icons/940260965755285544/fdc19e646a5577d035e6b7518a3ecbc1.png?size=512")
     .setColor("#3BFF00")
     .setFooter({text: "BeezleMods"})
 
