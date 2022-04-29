@@ -6,5 +6,6 @@ client.commands = new Collection();
 
 require("./Handlers/Event")(client);
 require("./Handlers/Commands")(client);
+require("./Handlers/Anti-crash")(client);
 
 client.login(Token);
