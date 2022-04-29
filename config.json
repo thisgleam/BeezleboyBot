@@ -1,4 +1,5 @@
 {
     "Token": "OTQ0MjA3MDUwMzk5OTQ0NzA0.Yg-PVw.ayc4M4FrXo1DtpMLxeo9GG6OM5k",
-    "Database": "mongodb+srv://beezleboy:Gleam3D123@beezleboybot.kum95.mongodb.net/BeezleboyBot?retryWrites=true&w=majority"
+    "Database": "mongodb+srv://beezleboy:Gleam3D123@beezleboybot.kum95.mongodb.net/BeezleboyBot?retryWrites=true&w=majority",
+    "mainGuild": "940260965755285544"
 }
