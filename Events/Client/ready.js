@@ -1,4 +1,6 @@
 const { Client } = require("discord.js");
+const mongoose = require("mongoose");
+const { Database } = require("../../config.json");
 
 module.exports = {
     name: "ready",
@@ -9,6 +11,16 @@ module.exports = {
      */
     execute(client) {
         console.log("Bot Online :) -thisgleam")
-        client.user.setActivity("Beezleboy Club", {type: "WATCHING"})
+        client.user.setActivity("Beezleboy Club", {type: "WATCHING"});
+
+        if(!Database) return;
+        mongoose.connect(Database, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true
+        }).then(() => {
+            console.log("Tersambung Ke Database")
+        }).catch((err) => {
+            console.log(err)
+        });
     }
 }
