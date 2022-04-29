@@ -5,6 +5,7 @@ const os                                                    = require("os");
 module.exports = {
     name: "status",
     description: "Displays the status of the client and database.",
+    permission: "ADMINISTRATOR",
     /**
      * @param {CommandInteraction} interaction 
      * @param {Client} client 
