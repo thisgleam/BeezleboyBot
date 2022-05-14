@@ -4,6 +4,7 @@
     "chalk": "^4.0.0",
     "chart.js": "^3.7.1",
     "chartjs-node-canvas": "^4.1.6",
+    "chartjs-plugin-gradient": "^0.5.0",
     "discord.js": "^13.6.0",
     "glob": "^8.0.1",
     "moment": "^2.29.3",
