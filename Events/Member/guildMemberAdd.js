@@ -1,5 +1,5 @@
 const { MessageEmbed, WebhookClient, GuildMember } = require("discord.js");
-const { ruleschannel, urlwelcomeleavelog, unverifiedroles } = require("../../config.json");
+const { ruleschannel, urlwelcomeleavelog, unverifiedroles } = require("../../Structures/config.json");
 
 module.exports = {
     name : "guildMemberAdd",

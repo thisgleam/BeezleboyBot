@@ -1,0 +1,27 @@
+{
+    "Token": "OTQ0MjA3MDUwMzk5OTQ0NzA0.Yg-PVw.ayc4M4FrXo1DtpMLxeo9GG6OM5k",
+    
+    "twitterConsumerKey":"WWQdSzV0fzA7nvPWf1dDmQfSa", 
+    "twitterConsumerSecret":"mT5heKkGd6PXRBOL8aapEyZKDuVsPwPrEoCYF3eGjBNkeBnt5Q", 
+    "twitterAccessTokenKey":"1513357013371129859-aj79rxY0WvsW26hb0zHj3eUjq3f4QG", 
+    "twitterAccessTokenSecret":"IAdbokHD0MMJoJUddC1sA1tZgBuFpzKPk6nwPdN7aSlAs",
+
+    "Database": "mongodb+srv://beezleboy:Gleam3D123@beezleboybot.kum95.mongodb.net/BeezleboyBot?retryWrites=true&w=majority",
+
+    "mainGuild": "940260965755285544",
+
+    "ruleschannel":"944131066199961610",
+    "verifychanel": "944519566975975434",
+
+    "unverifiedroles": "969508178716942376",
+    "verifiedroles": "944142150784925696",
+
+    "twitterfollowing":[
+        "750751206427860992",
+        "1486606382606401538"
+      ],
+
+    "urltweetlog": "https://discord.com/api/webhooks/969580265020227624/bVy-wR78ssvKc2F_TTlebW3pjCxiUbOmfNO71kq5l36wIwUj2hsH9f33de1CXpFJxvIw",
+    "urlerrorlog": "https://discord.com/api/webhooks/969524132163256340/a7ABSvWRGYXNHeNSV3Bu1NhXN57DBGJEDQwjKuTjDUjwJMA_nMCthFiVFzkw3-A-Tq9g",
+    "urlwelcomeleavelog":"https://discord.com/api/webhooks/969509873106702336/1dc902K0YXlHhkuq6cqUn8DMbmxpNURUgS8NwupIPdF6akRzq4Fs9Whn4_FxAaTblY8Q"
+}

@@ -1,5 +1,5 @@
 const { MessageEmbed } = require("discord.js");
-const { unverifiedroles, verifiedroles } = require("../../config.json");
+const { unverifiedroles, verifiedroles } = require("../../Structures/config.json");
 
   module.exports = {
     

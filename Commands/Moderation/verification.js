@@ -1,5 +1,5 @@
 const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
-const { verifychanel } = require("../../config.json");
+const { verifychanel } = require("../../Structures/config.json");
 
 module.exports = {
   

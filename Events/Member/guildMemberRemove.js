@@ -1,5 +1,5 @@
 const { MessageEmbed, WebhookClient, GuildMember } = require("discord.js");
-const { urlwelcomeleavelog } = require("../../config.json");
+const { urlwelcomeleavelog } = require("../../Structures/config.json");
 
 module.exports = {
     name : "guildMemberRemove",
