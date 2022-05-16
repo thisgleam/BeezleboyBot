@@ -24,9 +24,7 @@ function getPBar(percent) {
 
 module.exports = {
     name: "status",
-    usage: "/status",
     description: "Bot Status Information",
-    permission: "ADMINISTRATOR",
 
     /**
      * 
