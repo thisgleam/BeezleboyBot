@@ -14,7 +14,7 @@ module.exports = {
             .setAuthor({ name: "Beezleboy Support", iconURL: client.user.displayAvatarURL({ dynamic: true })})
             .setColor("RED")
             .setDescription(
-                "Create a support ticket to recieve official support for Lyxcode's related code issues."
+                "Create a support ticket to chat support Beezleboy Club."
             )
 
             const bt = new MessageActionRow()
