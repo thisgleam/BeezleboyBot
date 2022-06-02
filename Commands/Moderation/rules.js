@@ -25,7 +25,7 @@ module.exports = {
     ➜ Use the Right Channels.\n
     ➜ Context matters. Whoever you are or whatever it is, please keep content in the respective channels.`)
     .setThumbnail("https://cdn.discordapp.com/icons/940260965755285544/fdc19e646a5577d035e6b7518a3ecbc1.png?size=512")
-    .setColor("DARK_RED")
+    .setColor('RED')
     .setFooter({text: "BeezleMods"})
 
     await guild.channels.cache.get(RULES).send({ embeds: [Embed] })
